@@ -9,7 +9,9 @@ sed -i -e "s/#autologin-user=/autologin-user=kali/g" /etc/lightdm/lightdm.conf
 sed -i -e "s/#autologin-user-timeout=0/autologin-user-timeout=0/g" /etc/lightdm/lightdm.conf
 # cat /etc/lightdm/lightdm.conf | grep autologin
 
-
+# выключаем автоблокировку экрана
+echo "Hidden=true" >> /etc/xdg/autostart/light-locker.desktop
+xset s 0 0 
 
 # install Havoc
 cd /opt
