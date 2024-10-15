@@ -25,6 +25,9 @@ systemctl start nginx
 
 
 # nginx
+
+Делаем постоянную папку для раздачи фаилов /var/www/html
+
 Поменять порт с 80 на 8080 /etc/apache2/ports.conf
 ```
 Listen 8080
