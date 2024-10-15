@@ -22,3 +22,16 @@ killall havoc
 systemctl enable nginx
 systemctl start nginx
 ```
+
+
+# nginx
+Поменять порт с 80 на 8080 /etc/apache2/ports.conf
+```
+Listen 8080
+```
+рестарт
+```
+systemctl enable apache2
+systemctl restart apache2
+```
+
