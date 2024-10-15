@@ -4,6 +4,10 @@
 apt update && apt upgrade -y
 apt install iotop htop ripgrep mc iptraf-ng rlwrap ncdu
 
+# включаем автологин под пользователем kali
+sed -i -e "s/#autologin-user=/autologin-user=kali/g" /etc/lightdm/lightdm.conf
+sed -i -e "s/#autologin-user-timeout=0/autologin-user-timeout=0/g" /etc/lightdm/lightdm.conf
+# cat /etc/lightdm/lightdm.conf | grep autologin
 
 
 
