@@ -12,6 +12,7 @@
 
 Запуск Havoc
 ```
-cd /opt/Havoc               
+cd /opt/Havoc
+killall havoc
 ./havoc server --profile ./profiles/havoc.yaotl -v --debug & ./havoc client
 ```
