@@ -36,7 +36,6 @@ wget --no-check-certificate --content-disposition https://gist.githubusercontent
 git clone https://github.com/p4p1/havoc-reporter.git
 git clone https://github.com/icyguider/Shhhloader.git
 git clone https://github.com/matro7sh/matro7sh_loaders.git
-git clone https://github.com/matro7sh/matro7sh_loaders.git
 git clone https://github.com/jakobfriedl/mitre4havoc.git
 git clone https://github.com/p4p1/havoc-privkit.git
 git clone https://github.com/Cipher7/havoc-SauronEye.git
