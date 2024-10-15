@@ -24,3 +24,4 @@ make
 
 # Меняем время отстука агентов
 sed -i -e "s/Sleep = 2/Sleep = 0/g" /opt/Havoc/data/havoc.yaotl
+sed -i -e "s/Sleep = 2/Sleep = 0/g" /opt/Havoc/profiles/havoc.yaotl
