@@ -24,9 +24,11 @@ systemctl start nginx
 ```
 
 
-# nginx
+# Apache
 
 Делаем постоянную папку для раздачи фаилов /var/www/html
+http://127.0.0.1:8080/
+http://IP_VPN:8080/
 
 Поменять порт с 80 на 8080 /etc/apache2/ports.conf
 ```
