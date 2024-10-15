@@ -8,7 +8,7 @@
 
  # Havoc
  После установки изменить пароль
- /opt/Havoc/data/havoc.yaotl
+ /opt/Havoc/data/havoc.yaotl или /opt/Havoc/profiles/havoc.yaotl
 
 Запуск Havoc
 ```
