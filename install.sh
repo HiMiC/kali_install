@@ -26,6 +26,24 @@ make
 sed -i -e "s/Sleep = 2/Sleep = 0/g" /opt/Havoc/data/havoc.yaotl
 sed -i -e "s/Sleep = 2/Sleep = 0/g" /opt/Havoc/profiles/havoc.yaotl
 
+mkdir -p /opt/Havoc/data/extensions
+wget https://gist.github.com/e24bca8407d69c8ea28d4bc9d423f85b.git -O /opt/Havoc/data/extensions/auto_suite.py
 
+cd /opt/Havoc/data/extensions
+wget --no-check-certificate --content-disposition https://gist.githubusercontent.com/p4p1/e24bca8407d69c8ea28d4bc9d423f85b/raw/auto_suite.py
+wget --no-check-certificate --content-disposition https://gist.githubusercontent.com/p4p1/ac7b50eb5ec37529b8745e13718ed746/raw/havoc-fetch.py
+wget --no-check-certificate --content-disposition https://gist.githubusercontent.com/jakobfriedl/f55bd4f870348e68e0eb27ad6a2fa48b/raw/ADOE.py
+git clone https://github.com/p4p1/havoc-reporter.git
+git clone https://github.com/icyguider/Shhhloader.git
+git clone https://github.com/matro7sh/matro7sh_loaders.git
+git clone https://github.com/matro7sh/matro7sh_loaders.git
+git clone https://github.com/jakobfriedl/mitre4havoc.git
+git clone https://github.com/p4p1/havoc-privkit.git
+git clone https://github.com/Cipher7/havoc-SauronEye.git
+git clone https://github.com/p4p1/havoc-ligolo.git
+git clone https://github.com/Cipher7/havoc-PoolParty.git
+git clone https://github.com/jakobfriedl/havoc-NoPowerShell.git
+git clone https://github.com/p4p1/havoc-bloodhound.git
+git clone https://github.com/m7rick/Havoc-DLLHijack.git
 
 
