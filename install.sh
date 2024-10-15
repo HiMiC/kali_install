@@ -26,7 +26,6 @@ make
 sed -i -e "s/Sleep = 2/Sleep = 0/g" /opt/Havoc/data/havoc.yaotl
 sed -i -e "s/Sleep = 2/Sleep = 0/g" /opt/Havoc/profiles/havoc.yaotl
 
-mkdir -p /opt/Havoc/data/extensions
-wget https://gist.github.com/e24bca8407d69c8ea28d4bc9d423f85b.git -O /opt/Havoc/data/extensions/auto_suite.py
+
 
 
