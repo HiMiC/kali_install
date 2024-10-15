@@ -2,7 +2,7 @@
 
 
 apt update && apt upgrade -y
-apt install iotop htop ripgrep mc iptraf-ng rlwrap
+apt install iotop htop ripgrep mc iptraf-ng rlwrap ncdu
 
 
 
